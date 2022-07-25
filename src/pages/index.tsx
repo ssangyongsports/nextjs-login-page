@@ -148,8 +148,8 @@ function Home()
     if (loginError !== null)
     {
       notification.error({
-        message: 'Erro',
-        description: 'Usuário ou senha inválidos',
+        message: '錯誤',
+        description: '錯誤的帳號名稱或密碼',
         placement: 'bottomLeft'
       });
     }
@@ -182,7 +182,7 @@ function Home()
               </Styles.Instructions>
               <Styles.InputContainer>
                 <Styles.InputTitle>
-                  E-MAIL
+                  電子郵件
                 </Styles.InputTitle>
                 <Input
                   placeholder="user.name@mail.com"
