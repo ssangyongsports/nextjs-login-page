@@ -210,7 +210,7 @@ function Home()
                 />
                 {isPasswordValid === false &&
                   <Styles.ErrorMessage>
-                    Digite uma senha válida;
+                    錯誤帳號名稱或密碼
                   </Styles.ErrorMessage>
                 }
               </Styles.InputContainer>
