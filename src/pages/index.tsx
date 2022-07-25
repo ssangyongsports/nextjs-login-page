@@ -175,11 +175,10 @@ function Home()
               onSubmit={handleSubmit}
             >
               <Styles.Title>
-                Olá, seja bem-vindo!
+                歡迎光臨雙龍體育TV
               </Styles.Title>
               <Styles.Instructions>
-                Para acessar a plataforma, 
-                faça seu login.
+                要訪問該平台，請登錄。
               </Styles.Instructions>
               <Styles.InputContainer>
                 <Styles.InputTitle>
@@ -200,7 +199,7 @@ function Home()
               </Styles.InputContainer>
               <Styles.InputContainer>
                 <Styles.InputTitle>
-                  SENHA
+                  tv密碼
                 </Styles.InputTitle>
                 <Input
                   placeholder="*******"
@@ -224,8 +223,8 @@ function Home()
                   isLoading={isAuthorizing}
                 />
                 <Styles.ForgotContainer>
-                  Esqueceu seu login ou senha?
-                  Clique <a>aqui</a>
+                  尚未訂購雙龍體育TV?
+                  立即訂購 <a>aqui</a>
                 </Styles.ForgotContainer>
             </Styles.Form>
           </Styles.ContentContainer>
